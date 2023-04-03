@@ -1,0 +1,101 @@
+ <!-- NavBar Slider #2 -->
+                <ul class="menu__nesting">
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">USED</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Loren</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Loren 1</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Loren 2</a>
+                    </li>
+                </ul>
+
+                <!-- NavBar Slider #3 -->
+                <ul class="menu__nesting">
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">PARTS</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Loren</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Loren 1</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Loren 2</a>
+                    </li>
+                </ul>
+
+                <!-- NavBar Slider #4 -->
+                <ul class="menu__nesting">
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">ABOUT</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Loren</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Loren 1</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Loren 2</a>
+                    </li>
+                </ul>
+
+                <!-- NavBar Search -->
+                <ul class="menu__nesting">
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">New Vehicle Inventory</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">2023 Ford Lighning</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">2023 Ford Bronco</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">New Vehicle Specials</a>
+                    </li>
+                </ul>
+
+
+
+
+
+  .descripcion-superior {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .descripcion-inferior {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+  }
+
+
+        <div class="descripcion-superior">Descripción superior 3</div>
+        <div class="descripcion-inferior">Descripción inferior 3</div>
+
+
+        @media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}

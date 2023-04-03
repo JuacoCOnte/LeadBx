@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+Utilizo una extencion llamada Live Server en VisualStudio Code, pulsando el boton GoLive se abre directamente en el navegador predeterminado.
+=======
+Utilizo una extencion llamada Live Server en VisualStudio Code, pulsando el boton GoLive se abre directamente en el navegador predeterminado.
+>>>>>>> 43d4bfa6e363c55f008dd6e888a682f848a8cbe1
+En el caso de no tener la extencion descargar el repositorio y abrir el archivo index.html
